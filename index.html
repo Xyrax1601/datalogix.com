@@ -206,33 +206,6 @@ s0.parentNode.insertBefore(s1,s0);
         <button class="next">❯</button>
     </div>
 
-
-
-   <!-- Chatbot Container -->
-<div class="chatbot-container">
-    <div class="chatbot-header">
-        <span>Please select your inquiry</span>
-        <button class="close-chatbot">×</button>
-    </div>
-    <div class="chatbot-body">
-        <div class="messages">
-            <div class="message bot-message">Hello! How can I assist you today? Please select one of the questions below:</div>
-        </div>
-
-        <!-- Predefined Questions as Bot Messages -->
-        <div class="predefined-questions message bot-message">
-            <button class="question-button" data-response="Our company was founded in 2005.">When was the company founded?</button>
-            <button class="question-button" data-response="We offer IT solutions, software development, and consulting.">What services do you offer?</button>
-            <button class="question-button" data-response="You can reach us via email at support@example.com.">How can I contact support?</button>
-            <button class="question-button" data-response="Our office is located in New York, NY.">Where is your office located?</button>
-            <button class="question-button" data-response="Our working hours are 9 AM to 6 PM, Monday to Friday.">What are your working hours?</button>
-        </div>
-
-        <input type="text" class="chatbot-input" placeholder="Type your message..." style="display: none;" />
-        <button class="send-button" style="display: none;">Send</button>
-    </div>
-</div>
-
 <!-- 
    <div class="containermapfb">
     <main>
@@ -257,7 +230,14 @@ s0.parentNode.insertBefore(s1,s0);
         <div id="map" class="map-container"></div>
 
         
-    <!-- Add this in your existing HTML just before the closing </body> tag -->
+  
+
+
+</div>
+
+
+    <script src="script.js"> </script>
+      <!-- Add this in your existing HTML just before the closing </body> tag -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap" async defer></script>
 <script>
     function initMap() {
@@ -277,11 +257,5 @@ s0.parentNode.insertBefore(s1,s0);
         });
     }
 </script>
-
-
-</div>
-
-
-    <script src="script.js"> </script>
 </body>
 </html>
